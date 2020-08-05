@@ -1,0 +1,72 @@
+.container{
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    font-family: cursive;
+    color: blueviolet;
+}
+.header{
+    padding: 20px;
+    margin-top: 20px;
+    background: blueviolet;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.corpo{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.div_normal{ /* css das divs que carregam uma label e um input */
+    margin: 20px;
+    padding: 2px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.label{
+    color: white;
+    background-color: blueviolet;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    width: 50%;
+    margin-right: 20px;
+}
+.input{ /* css dos inputs de entrada de dados */
+    color:blueviolet;
+    padding: 5px;
+    border: solid 1px blueviolet;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.btn{ /* css do botão cadastrar */
+    padding: 10px;
+    color: blueviolet;
+    border-radius: 15px;
+    border: solid 2px white;
+    background-color: white;
+    font-family: cursive;
+    font-size: large;
+}
+.btn:hover{ /* css do botão cadastrar */
+    color: white;
+    background-color: blueviolet;
+}
+.footer{
+    color: white;
+    background-color: blueviolet;
+    width: 100%;
+    padding: 20px;
+}
+.img{
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+}

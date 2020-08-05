@@ -1,0 +1,9 @@
+.container{
+	margin: 0 auto;
+	width: 80%;
+	background: grey;
+}
+div{
+	margin-top: 10px;
+	border: solid blue 3px;
+}

@@ -1,0 +1,39 @@
+
+/* css referente ao corpo e loyout com display */
+.container{
+    font-family: "Lucida Console", Courier, monospace;
+    margin: 0;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center; 
+    color: blueviolet;
+}
+.inputs{
+    padding: 20px;
+    text-align: center;
+    width: 25%;
+}
+.padd{
+    padding: 10px;
+    margin-top: 10px;
+    border: solid 2px blueviolet;
+    border-radius: 5px;
+}
+.check{
+    padding: 10px;
+    margin:  10px;
+    border: solid 2px blueviolet;
+    border-radius: 5px;
+}
+.btn_up{
+    border-radius: 10px;
+    border:solid 2px blueviolet;
+    font-size: 15px;
+    padding: 10px;
+    width: 150px;
+    background-color: blueviolet;
+    color: white;
+}

@@ -1,0 +1,28 @@
+.normal{
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
+}
+.div_box{
+    margin: 5px;
+    padding: 5px;
+    color: blueviolet;
+}
+.div_box_btn{
+    margin: 5px;
+    padding: 5px;
+   
+}
+.btn{
+    background-color: blueviolet;
+    color: white;
+    border-radius: 5px;
+    border-color: blueviolet;
+    color: white;
+}
+input{
+    color: blueviolet;
+    border-color: blueviolet;
+    border-radius: 5px;
+}

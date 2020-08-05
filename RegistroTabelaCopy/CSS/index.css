@@ -1,0 +1,54 @@
+.base{ /* Classe para deixar o formulario no meio */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    padding: 50px;
+}
+.formulario{
+    width: 100%;
+}
+.div_controler{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.inputs{
+    padding: 10px;
+}
+.check{
+    padding: 15px;
+    padding: 15px;
+    width: 50%;
+    padding-left: 25%;
+}
+.btn{
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+.til{
+    padding: 7px;
+}
+input{
+    border:solid grey 2px;
+    border-radius: 5px;
+    text-align: center;
+}
+.div_nivel{
+    border:solid grey 2px;
+    border-radius: 5px;
+    text-align: start;
+}
+.div_check{
+    padding: 2px;
+}
+button{
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+}

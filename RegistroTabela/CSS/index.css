@@ -1,0 +1,37 @@
+.container{
+    font-family: "Lucida Console", Courier, monospace;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
+.imagems{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    padding: 50px;
+}
+.img{
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding: 20px;
+    border: solid 5px blueviolet;
+    border-radius: 10px;
+    color: blueviolet;
+}
+.paragrafo_index{
+    color: blueviolet;
+    text-align: center;
+    width: 100%;
+}
+.padding10px{
+    padding: 10px;
+}
+.img:hover{
+   border-color: purple;
+    width: 50%;
+}

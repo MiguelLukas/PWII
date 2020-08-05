@@ -1,0 +1,45 @@
+.container{
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+
+}
+#titulo{
+    text-align: center;
+    margin: 0 auto;
+}
+@media(min-width: 500px){
+    #fomulario{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+} 
+#formulario{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px;
+    position: relative;
+    color: red;
+}
+.t{
+    margin: 10px;
+    border: solid grey 3px;
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+}
+
+.in{
+    padding-top: 5px;
+    border: solid red 1px;
+    border-radius: 10px;
+}
+.btn_igual{  
+    border-radius: 5px;
+    border: solid red 1px;
+    width: 30px;
+    height: 20px;
+}

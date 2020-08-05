@@ -1,0 +1,34 @@
+/*
+  CSS de caixa de alerta
+  autor: miguel Lukas
+*/
+
+/* gera um alerta de erro */
+.alert{
+    padding: 20px;
+    background-color: #f44336; /* vermelho */
+    color: white; /* braca cor da fonte */
+    margin-bottom: 15px;
+}
+
+/* gera um alerta de sucesso */
+.alert.success{
+    background-color: #4caf50;
+}
+
+/* cria um botão para fechar o alerta */
+.closebtn{
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* modifica o botão com o cursor do mause em cima */
+.closebtn:hover{
+    color: black;
+}

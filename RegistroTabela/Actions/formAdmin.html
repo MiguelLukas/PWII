@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title> Atividade EAD </title>
+        <link rel="stylesheet" type="text/css" href="../CSS/form.css"> 
+        <link rel="stylesheet" type="text/css" href="../CSS/header.css"> 
+        <link rel="stylesheet" type="text/css" href="../CSS/footer.css"> 
+    </head> 
+    <body class="container">
+
+        <header class="header" >
+            <label> ADMINISTRAÇÃO </label>
+        </header>
+
+        <section class="base"> 
+
+            <form action="../Config/save.php" method="post">
+
+                <div class="formulario">
+
+                     <!-- 1 Item -->
+                    <div id="titulo" class="paddingItems" >
+                        <label> CADASTRO DE FUNCIONARIO </label>
+                    </div>
+
+                     <!-- 2 item -->
+                    <label class="sub_titulos_usuario" > DADOS DO USUARIO </label>
+
+                     <!-- 3 Item -->
+                    <div class="dados_usuario paddingItems tamanho" >
+
+                        <div class="inputs paddingItems2 " >
+                            <input type="text" name="nome" value="" placeholder=" Nome do Funcionario "><br>
+                        </div>
+
+                        
+                        <div class="inputs paddingItems2 " >
+                            <input type="number" name="cpf" value="" placeholder=" CPF do Funcionario "><br>
+                        </div>
+
+                    </div>
+
+                     <!-- 3 item -->
+                    <label class="sub_titulos_funcoes"> NIVEL DE FUNÇÕES </label>
+
+                     <!-- 4 Item -->
+                    <div class="check paddingItems tamanho" >
+                        
+                        <!-- sub item check 1 -->
+                        <div class="div_check">
+                            
+                             <!-- sub item div_check 1  -->
+                            <div class="paddingItems2" >
+                                <label> Admin: </label>
+                                <input type="checkbox" name="nivel" value="Admin" checked>
+                            </div>
+
+                             <!-- sub item div_check 2  -->
+                            <div class="paddingItems2" >
+                                <input type="number" name="extra"  placeholder=" Horas extras interas: " />
+                            </div>
+
+                        </div>
+
+                    </div>
+                    
+                    <!-- 5 item -->
+                    <div class="btn_form paddingItems">
+                        
+                        <!-- sub item 1 -->
+                        <button class="btn_form" type="submit">  ENVIAR </button>
+
+                        <!-- sub item 1 -->
+                        <button class="btn_form" type="reset">  RESET </button>
+    
+                    </div>
+
+                </div>  <!-- Fechamento da div de controle do css (div formulario) -->
+
+            </form> <!-- Fechamento do form  -->
+
+        </section>
+        <footer class="footer" >
+            <label> Copyright Miguel Lukas </label>
+        </footer>
+    
+    </body>  
+</html>
+

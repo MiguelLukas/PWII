@@ -1,0 +1,113 @@
+.container{
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    font-family: cursive;
+    color: blueviolet;
+}
+.cont{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content:row ;
+    align-items: center;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
+.header{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: blueviolet;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.font{
+    font-size: larger;
+}
+.pesquisa {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    text-align: end;
+}
+.img{
+    border-radius: 5px;
+    width: 50px;
+    height: 50px;
+}
+.input_pesquisa{
+    color: blueviolet;
+    padding: 10px;
+    border: solid 2px blueviolet;
+    border-radius: 10px;
+}
+.btn_pesquisa{
+    padding: 10px;
+    background: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+.label_filtro{
+    padding: 10px;
+    font-size: larger;
+    
+}
+.margin_{
+    margin-left: 5px;
+}
+.table_cabecalho{
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+.table_registros{
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+.td_cabecalho{
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+    padding: 5px;
+    border: solid 2px blueviolet;
+    background: blueviolet;
+    color: white;
+}
+.td_registros{
+    border-radius: 10px;
+    border: none;
+    width: 100px;
+    height: 30px;
+    margin: 20px;
+    border: solid 2px blueviolet;
+}
+.back{
+    background: blueviolet;
+}
+.alink_{
+    color: white;
+}
+.alink_up:hover{
+    color: green;
+}
+.alink_del:hover{
+    color: red;
+}
+.footer{
+    color: white;
+    background-color: blueviolet;
+    width: 100%;
+    padding: 20px;
+    
+}
